@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OAuth Callback | BAGAOPT AI Studio</title>
+  <style>
+    body { background: #0b0f19; color: #f1f5f9; font-family: 'Segoe UI', system-ui, sans-serif; padding: 48px 24px; text-align: center; }
+    .box { max-width: 640px; margin: 0 auto; background: #131b2e; border: 1px solid #23304d; border-radius: 16px; padding: 36px; }
+    code { display: block; background: #0b0f19; padding: 14px; border-radius: 8px; color: #10b981; word-break: break-all; margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>✅ TikTok Authorization Successful</h1>
+    <p>BAGAOPT AI Studio — AI Academy Publisher OAuth 2.0 Callback</p>
+    <code id="params">Waiting for authorization parameters...</code>
+  </div>
+  <script>
+    document.getElementById('params').textContent = window.location.search || 'No query parameters provided.';
+  </script>
+</body>
+</html>

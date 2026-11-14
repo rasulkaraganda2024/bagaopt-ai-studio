@@ -1,0 +1,63 @@
+{
+  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+  "version": "v1.1.0",
+  "entity": {
+    "type": "organisation",
+    "role": "owner",
+    "name": "BAGAOPT Open-Source Lab (IE Bek Lira)",
+    "email": "founder@bagaopt.kz",
+    "phone": "+77010240100",
+    "webpageUrl": {
+      "url": "https://bagaopt.kz"
+    },
+    "description": "Independent open-source engineering lab in Astana, Kazakhstan building deterministic isochronous video localization (TimeLock-Core 0.0s), Kazakh Cyrillic/Unicode font rendering shields, and zero-drift RU/KZ educational tooling."
+  },
+  "projects": [
+    {
+      "guid": "bagaopt-timelock-kk-kz",
+      "name": "TimeLock-Core 0.0s & Kazakh Glyphs Shield",
+      "description": "Open-source Apache-2.0 toolkit for zero-drift audiovisual synchronization, Kazakh 18-glyph typography verification, and low-resource kk-KZ educational localization.",
+      "webpageUrl": {
+        "url": "https://bagaopt.kz"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/rasulkaraganda2024/timelock-core-kz",
+        "wellKnown": "https://github.com/rasulkaraganda2024/timelock-core-kz/raw/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "localization",
+        "accessibility",
+        "multimedia",
+        "python",
+        "education"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "bank-kazakhstan-ie",
+        "type": "bank",
+        "address": "founder@bagaopt.kz",
+        "description": "Direct grant disbursement to IE Bek Lira (Astana, Kazakhstan) via SWIFT / Bereke Bank."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "timelock-kk-kz-release",
+        "status": "active",
+        "name": "Kazakh & Central Asian Open Localization Milestone",
+        "description": "12-month R&D and open dataset release for zero-drift Kazakh (kk-KZ) educational media tools.",
+        "amount": 25000,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "bank-kazakhstan-ie"
+        ]
+      }
+    ]
+  }
+}
